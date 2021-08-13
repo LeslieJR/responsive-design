@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  background-color: rgb(0,255,0);
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.footer{
+  margin-top: 10px;
+}
+footer{
+  background-color: rgb(0,255,0);
+  height: 60px;
+}
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .first .col-xs-12{
+      background-color: violet;
+      height: 60px;
+      margin-bottom: 10px;
+    }
+    .columns .col-xs-12:first-child,
+    .columns .col-xs-12:last-child{
+      background-color: rgb(255,153,85);
+      height: 100px;
+    }
+    .columns .col-xs-12:last-child{
+      margin-top: 10px;
+    }
+
+    .squares{
+      margin-top: 10px;
+    }
+    .squares div{
+      height: 80px;
+      
+    }
+    .col-6{
+      background-color: rgb(0,0,255);
+      border: 1px solid black;
+    }    
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .row .col-sm-2{
+      background-color: crimson;
+    }
+    .first .col-sm-12{
+      background-color: violet;
+      height: 60px;
+      margin-bottom: 10px;
+    }
+    .columns .col-sm-12:first-child,
+    .columns .col-sm-12:last-child{
+      background-color: rgb(255,153,85);
+      height: 100px;
+    }
+    .columns .col-sm-12:last-child{
+      margin-top: 10px;
+    }
+    .squares{
+      margin-top: 10px;
+    }
+    .squares div{
+      height: 80px;
+      
+    }
+    .col-sm-4{
+      background-color: rgb(0,0,255);
+      border: 1px solid black;
+    }    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up)  Includes md, lg, xl*/
+  @media only screen and (min-width: 768px) {
+    .row .col-md-2{
+      background-color: crimson;
+    }
+    .first .col-md-12{
+      background-color: violet;
+      height: 60px;
+      margin-bottom: 10px;
+    }
+    .columns .col-md-12:first-child,
+    .columns .col-md-12:last-child{
+      background-color: rgb(255,153,85);
+      height: 100px;
+    }
+    .columns .col-md-12:last-child{
+      margin-top: 10px;
+    }
+    .squares{
+      margin-top: 10px;
+    }
+    .squares div{
+      height: 80px;
+      
+    }
+    .squares .col-md-3, .squares .col-md-2{
+      background-color: rgb(0,0,255);
+      border: 1px solid black;
+    }    
+  } 
+ 
