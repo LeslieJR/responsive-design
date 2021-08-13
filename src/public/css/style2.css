@@ -38,10 +38,10 @@ footer{
       height: 80px;
       
     }
-    .col-6{
-      background-color: rgb(0,0,255);
-      border: 1px solid black;
-    }    
+    .col-6 .g-2{
+      background-color: blue;
+    }
+    
 
   }
   
@@ -70,15 +70,14 @@ footer{
       height: 80px;
       
     }
-    .col-sm-4{
+    .col-sm-4 .g-2{
       background-color: rgb(0,0,255);
-      border: 1px solid black;
     }    
   }
   
   /* Medium devices (landscape tablets, 768px and up)  Includes md, lg, xl*/
   @media only screen and (min-width: 768px) {
-    .row .col-md-2{
+    .row .main .col-md-2{
       background-color: crimson;
     }
     .first .col-md-12{
@@ -101,9 +100,8 @@ footer{
       height: 80px;
       
     }
-    .squares .col-md-3, .squares .col-md-2{
+    .col-md-3 .g-2, .col-md-2 .g-2{
       background-color: rgb(0,0,255);
-      border: 1px solid black;
     }    
   } 
  
